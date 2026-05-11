@@ -1,0 +1,53 @@
+# Core App
+streamlit>=1.35.0
+
+# Audio / Video Processing
+yt-dlp>=2025.1.15
+ffmpeg-python>=0.2.0
+pydub>=0.25.1
+
+# Speech-to-Text (Local Whisper)
+openai-whisper>=20240930
+torch>=2.2.0
+torchaudio>=2.2.0
+
+# Translation
+deep-translator>=1.11.4
+
+# LangChain + LLM
+langchain>=0.3.0
+langchain-core>=0.3.0
+langchain-community>=0.3.0
+langchain-text-splitters>=0.3.0
+
+# Mistral API
+mistralai>=1.2.0
+
+# Embeddings + RAG
+chromadb>=0.5.5
+sentence-transformers>=3.0.1
+huggingface-hub>=0.24.0
+
+# Tokenization / NLP
+transformers>=4.44.0
+tiktoken>=0.7.0
+
+# PDF Export
+fpdf2>=2.7.9
+reportlab>=4.2.2
+
+# Data Handling
+pandas>=2.2.2
+numpy>=1.26.4
+
+# Utilities
+python-dotenv>=1.0.1
+requests>=2.32.3
+tqdm>=4.66.5
+
+# Optional: Better File Handling
+python-multipart>=0.0.9
+
+# Optional: Faster Whisper Alternative
+faster-whisper>=1.0.3
+ctranslate2>=4.3.1
